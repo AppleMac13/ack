@@ -3,16 +3,40 @@ Label: ACK Repo
 Suite: stable
 Version: 1.0
 Codename: raphael
-Date: Tue, 24 Nov 2026 14:36:36 +0000
+Date: Tue, 24 Nov 2026 14:50:14 +0000
 Architectures: all appletvos-arm64e iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: consolidated local tweak repo
 MD5Sum:
  7e8d4fe9b78a350343142e4169c89d7d 1682748 Packages
- 7f896143c1c44af597b135be3fe0a7fd 397840 Packages.gz
+ 68166b3f6c4d98b5a0332010b410397e 397840 Packages.gz
+ 9d4d46c1250d341fb99a91fef5363dd5 677683 main/binary-iphoneos-arm64/Packages
+ 47f144ac514c6c841a9193eb2842ddb9 218088 main/binary-iphoneos-arm64/Packages.gz
+ 849b29247e6c17228cbe16b06a9b702a 567502 main/binary-iphoneos-arm64e/Packages
+ 1efd844f92240ca40c2628f2cb6d22ac 185035 main/binary-iphoneos-arm64e/Packages.gz
+ 02b26e7a1eeeff068523d790d8a00f46 437259 main/binary-iphoneos-arm/Packages
+ 2f1da84664f790e8ca39e2bdf3957816 82943 main/binary-iphoneos-arm/Packages.gz
+ 67ea1b7da174064441f303a25a75ed46 1998 main/binary-appletvos-arm64e/Packages
+ 7d36377b513f4dd7b96a77c50badf343 919 main/binary-appletvos-arm64e/Packages.gz
 SHA1:
  0cb5c959b75261443f329fb99ec6f223e92394cb 1682748 Packages
- 9f86e204a7e0b78accd0c13f94472a38afd7c14b 397840 Packages.gz
+ 78405ec6d414075f576361e2484e33a907180fe1 397840 Packages.gz
+ 30cda381ed9ae48baa87b1f47113e1fb6208cc04 677683 main/binary-iphoneos-arm64/Packages
+ d139aca79aab0e1860a6c2ba4077919e99446e40 218088 main/binary-iphoneos-arm64/Packages.gz
+ 35d9d2409574d3695f2613ddcaf24fc038f950cd 567502 main/binary-iphoneos-arm64e/Packages
+ 694eebcaae4a6ebb10653579015269ddfcc97880 185035 main/binary-iphoneos-arm64e/Packages.gz
+ 7a251600c37646aa9d21481377a0e4f2c570f86e 437259 main/binary-iphoneos-arm/Packages
+ 623e8f3722c077397aead2e9b4d30d3dd92e2843 82943 main/binary-iphoneos-arm/Packages.gz
+ 8f1aed153870d199d00f51dc7a1103a721ceda26 1998 main/binary-appletvos-arm64e/Packages
+ 3f80dbcd06d967b2c31aec5870fe999537622d6a 919 main/binary-appletvos-arm64e/Packages.gz
 SHA256:
  65e0195c92aea607d7cca493789a812e1ce95bf1d1f8fdcc3495e1f60f8a6796 1682748 Packages
- d1088a0605e4cc410fb41ed9853f6dd2e8043e59c409b852968cb79ec408429e 397840 Packages.gz
+ 0930c8fbec98b69e8db9fdf463dbd793b3f7c530d3a833504a6c0a2fe4e75ce4 397840 Packages.gz
+ b0312ab519facc0405478b3090f0737fa08ec338a24ef9130f5a81f007e90949 677683 main/binary-iphoneos-arm64/Packages
+ d90f0e9c786b9b291122026f27ed2b2530f02a96247508ce56c4510b2142886f 218088 main/binary-iphoneos-arm64/Packages.gz
+ dac7b6936e4d37e3190162c23e39ca1f7ca5673976545a11f3d6b91fe123a7c6 567502 main/binary-iphoneos-arm64e/Packages
+ 715cbee77b5372e2a521921810d1013a87ad7fd3a61fdaa92615b56fb5b07c92 185035 main/binary-iphoneos-arm64e/Packages.gz
+ 032a22eb16350819134e086bae6b829aaa86505065d7f66ac5eeb181ae5c2231 437259 main/binary-iphoneos-arm/Packages
+ 0af99564a35b1ffa6f84d7b0627ce67600a26ebb37b4adbbbf272626dcbe7a68 82943 main/binary-iphoneos-arm/Packages.gz
+ 917d150482c7323a78254cab2a9f63b112927872596853722446afc6a448c752 1998 main/binary-appletvos-arm64e/Packages
+ 6885d87aa93641c1fa2d3d94fbc770661d836e34f29cf4e748b088c83dae7a2b 919 main/binary-appletvos-arm64e/Packages.gz
