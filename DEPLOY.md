@@ -1,31 +1,28 @@
-# ack-repo 部署到 GitHub Pages
+# ack-repo（GitHub Pages 越狱源）
 
-## 现状
-- 本地仓库：`H:\ios-repo`，分支 `main`，已提交 153 个 deb + `Packages` + `Release`。
-- 远端已配置：`git@github.com:AppleMac13/ack-repo.git`
-- SSH 已通（`ssh -T git@github.com` 返回 Hi AppleMac13）。
+## 线上地址
+```
+https://applemac13.github.io/ack-repo/
+```
+- 仓库：`AppleMac13/ack-repo`（Public），Pages 源 `main` 分支 `/(root)`。
+- 已验证：`Release` 200、`Packages` 200、deb 包可下载。
 
-## 步骤
-1. 浏览器登录 GitHub，新建空仓库：
-   - 名字 `ack-repo`，Public。
-   - **不要**勾选 Add README / .gitignore / license（保持空仓库，否则推送要先合并）。
-2. 本机推送：
+## 本地
+- 目录：`H:\ios-repo`，分支 `main`，远端 `git@github.com:AppleMac13/ack-repo.git`。
+- `_scan/` 为内部分析目录，已 gitignore，不入库。
+
+## 更新流程
+1. 替换/新增 deb。
+2. 重算 `Packages`（每个包的 Filename/Size/MD5/SHA1/SHA256）与 `Release`。
+3. 提交并推送：
    ```powershell
-   H:\ios-repo\push-to-pages.ps1
+   cd H:\ios-repo
+   git add -A
+   git commit -m "update repo"
+   git push
    ```
-   或在 `H:\ios-repo` 下执行 `git push -u origin main`。
-3. 仓库网页 Settings → Pages：
-   - Source: `Deploy from a branch`
-   - Branch: `main`，文件夹 `/(root)`，Save。
-4. 等 1–2 分钟，验证：
-   - `https://applemac13.github.io/ack-repo/Release`
-   - `https://applemac13.github.io/ack-repo/Packages`
-5. Sileo / Zebra 添加源：
-   ```
-   https://applemac13.github.io/ack-repo/
-   ```
+4. Pages 自动重新部署，1–2 分钟生效。
 
 ## 注意
-- 免费版 Pages 只能用 Public 仓库；仓库内包含破解/付费类插件，公开前自行确认。
-- 单文件 GitHub 硬上限 100MB；当前最大 deb 约 54MB，未超限。
-- 以后更新 deb 后：替换文件 → 重算 `Packages`/`Release` → `git add -A; git commit; git push`。
+- 免费版 Pages 仅支持 Public 仓库；仓库内含破解/付费类插件，公开可见。
+- 单文件 GitHub 硬上限 100MB；当前最大 deb 约 54MB，未超限（两个 51.6MB 文件超 50MB 推荐值但可正常下载）。
