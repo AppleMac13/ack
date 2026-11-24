@@ -1,14 +1,14 @@
-# ack-repo（GitHub Pages 越狱源）
+# ack（GitHub Pages 越狱源）
 
 ## 线上地址
 ```
-https://applemac13.github.io/ack-repo/
+https://applemac13.github.io/ack/
 ```
-- 仓库：`AppleMac13/ack-repo`（Public），Pages 源 `main` 分支 `/(root)`。
+- 仓库：`AppleMac13/ack`（Public），Pages 源 `main` 分支 `/(root)`。
 - 已验证：`Release` 200、`Packages` 200、deb 包可下载。
 
 ## 本地
-- 目录：`H:\ios-repo`，分支 `main`，远端 `git@github.com:AppleMac13/ack-repo.git`。
+- 目录：`H:\ios-repo`，分支 `main`，远端 `git@github.com:AppleMac13/ack.git`。
 - `_scan/` 为内部分析目录，已 gitignore，不入库。
 
 ## 更新流程
