@@ -1,9 +1,14 @@
-Origin: local-repo
-Label: local-repo
+Origin: ACK Repo
+Label: ACK Repo
 Suite: stable
 Version: 1.0
 Codename: raphael
-Date: Mon, 23 Nov 2026 10:25:22 UTC
+Date: Tue, 24 Nov 2026 00:52:41 UTC
 Architectures: iphoneos-arm iphoneos-arm64 all
-Components: main
 Description: consolidated local tweak repo
+MD5sum:
+ 01b26f847dc961236a0a9ede1d1f1d1c 84512 Packages
+SHA1:
+ e256e0b2de585405562f168699ff60ab460487c0 84512 Packages
+SHA256:
+ 8e99ce90c3e9d8b75bd0a016364f4b4f13e92fded295ff77bcf1ec562ebb4534 84512 Packages
