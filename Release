@@ -3,13 +3,13 @@ Label: ACK Repo
 Suite: stable
 Version: 1.0
 Codename: raphael
-Date: Tue, 24 Nov 2026 13:51:39 +0000
+Date: Tue, 24 Nov 2026 14:14:51 +0000
 Architectures: all appletvos-arm64e iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: consolidated local tweak repo
 MD5Sum:
- f841198593244198ac47c88619a33279 2079636 Packages
+ aaf115b6cd512b6f75894b0137990abc 2081040 Packages
 SHA1:
- bf4d4171dba075381902db64ac701b6239f5b06a 2079636 Packages
+ db87ec80468573ed4fe055b23fcc771b5cb983ba 2081040 Packages
 SHA256:
- 07b71c3d1a89ca61d07d0cfeb9deba61716eeda2b52de42bbc8d30ab16f082f3 2079636 Packages
+ e0dba9aeae89fb5a814f38b4f36cdfeb7bf81ea68f0ac6a98a1ddc6196c83e5f 2081040 Packages

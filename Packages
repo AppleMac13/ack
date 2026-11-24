@@ -38059,6 +38059,43 @@ SHA256: df6e979eb231e88a195d83f76a950622fbb2bf6ed1bf1c6be137ca7269ff14d4
 Description: Libidn2 is an implementation of the IDNA2008 + TR46 specifications
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 
+Package: libiosexec1
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1)
+Section: Libraries
+Priority: required
+Filename: ./libiosexec1_1.3.1_iphoneos-arm64.deb
+Size: 9312
+MD5sum: fe55e63c546937714501a1e5c8637c69
+SHA1: cacd29bb374f96d0a220c2e311d89d1c3e9e19de
+SHA256: fa219a841c7852a293e62f1fce83fc975f272b4875e258575943d4b6d6df10d3
+Description: shim for execve w/ shell script support
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Essential: yes
+Installed-Size: 76
+SHA512: fde55b6fee6b17c61acae6cd6403e135a675dd8614e6cfc4c9894e986db2c3d84edf8b77e2abd9fb279486580cccc43a331135b222cc668c0f0439024cf0588c
+
+Package: libkrw0
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), libkrw0-plugin
+Section: Libraries
+Priority: standard
+Filename: ./libkrw0_1.1.1-2_iphoneos-arm64.deb
+Size: 4264
+MD5sum: 2901390b123cf0614153a2b40904897c
+SHA1: 969608254768e6a5c4cca387ad48482859137c47
+SHA256: fecb8ea66f0028e44b232ba8a6e030286606a367373046a8fac49e19066fac23
+Description: A kernel R/W API for jailbreaks (Shared Library)
+Author: Siguza
+Homepage: https://github.com/Siguza/libkrw
+Installed-Size: 56
+Provides: libkrw (= 1.1.1-2)
+SHA512: 2e895efa1eb477aaf10d5f0b026126ca05ba9a9a658d9d5c057e0d2ce7050c9983e455a3446528f56f13f5c9623bd5aaaf9a9103cf377d4a876a9de7a77c1ea4
+
 Package: libkrw0-dopamine
 Version: 2.0.4
 Architecture: iphoneos-arm64
