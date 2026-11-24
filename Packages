@@ -8241,42 +8241,6 @@ Description: WCPulse 1.7-2 with same-version grouping-bar startup timing compati
 Author: huami
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
-Package: com.huayuarc.123456789
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: sudo
-Section: Free Token 免费 Token
-Filename: ghio/debs/com.huayuarc.123456789-0.0.1-rootless.deb
-Size: 1096
-MD5sum: 977dd5a7a78a38b505d061641f85961e
-SHA1: 7b26fbdb75b7b20dff52d81e00ce909164b0f426
-SHA256: 4220c2b9488b93578dfb3b478b820df5593b5fc14627a23191d085bb1eb2e5bd
-Name: 1-Free Token 免费 Token
-Description: 越狱插件AI开发与沟通交流
-Author: Huayuarc
-Tag: cydia::commercial
-Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-icon: https://huayuarc.github.io/icon/CydiaIcon.png
-
-Package: com.huayuarc.123456789
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: sudo
-Section: Free Token 免费 Token
-Filename: ghio/debs/com.huayuarc.123456789-0.0.1-roothide.deb
-Size: 1100
-MD5sum: c61a23f3f281db21fedd6f35ec71ca1e
-SHA1: 9a16408d1333bfe61c4c8f9273f88618dd1acc71
-SHA256: 883f7ba955ad4a2cbac42f3e1d0d19b5eff3ac57cd23d12799e8116ed10d7ef9
-Name: 1-Free Token 免费 Token
-Description: 越狱插件AI开发与沟通交流
-Author: Huayuarc
-Tag: cydia::commercial
-Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-icon: https://huayuarc.github.io/icon/CydiaIcon.png
-
 Package: com.huayuarc.acesecuritybypass
 Version: 0.0.1-roothide
 Architecture: iphoneos-arm64e
