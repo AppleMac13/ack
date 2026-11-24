@@ -1,0 +1,9 @@
+Origin: local-repo
+Label: local-repo
+Suite: stable
+Version: 1.0
+Codename: raphael
+Date: Mon, 23 Nov 2026 10:25:22 UTC
+Architectures: iphoneos-arm iphoneos-arm64 all
+Components: main
+Description: consolidated local tweak repo
